@@ -1,0 +1,89 @@
+.container-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+
+.text-wait {
+    transform: translate(10%,-20rem) rotate(-15deg);
+}
+
+.text-scroll {
+    transform: translate(2%, 150%) rotate(-3deg);
+}
+
+.text-game {
+    transform: translate(60%, -200%) rotate(10deg);
+}
+
+.container-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;     
+    font-size: 1rem;       
+    width: 70%;
+    margin: -12rem auto; 
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.letter-design, .letter-design-three {
+    position: absolute;
+    margin-top: 0.5%;
+} 
+
+.letter-design-three{
+    margin: 0.3% 0% 0% 0.3%;
+}
+
+.exclamation-mark {
+    margin-right: 5%;
+}
+.container-gobelet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    gap: 6%;
+}
+
+.title {
+    margin-left: 17%;
+}
+
+.sub-title {
+    margin-left: 30%;
+}
+
+.title-part {
+    margin-left: 4%; 
+}
+
+.container-choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12.5%;
+}
+
+.circle-yes, .circle-no {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.5rem;
+    height: 3rem;
+    background-color: #1f1b1bee;
+    border-radius: 50%;
+    color: rgba(255, 255, 255, 0.774); 
+}

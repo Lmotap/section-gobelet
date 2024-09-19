@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Made Soulmaze';
+    font-weight: 400;
+    src: url('../fonts/made_soulmaze/MADE\ Soulmaze\ PERSONAL\ USE.otf') format('truetype')
+}
+@font-face {
+    font-family: 'Stand Rock';
+    src: url('../fonts/stand-rock-font/misc/StandRock\ PERSONAL\ USE\ ONLY!-d65c.woff') format('truetype')
+}
+@font-face {
+    font-family: 'Stand Rock';
+    font-weight: 300;
+    src: url('../fonts/stand-rock-font/misc/StandRock\ PERSONAL\ USE\ ONLY!-66c7.woff2') format('truetype');
+}
+@font-face {
+    font-family: 'Stand Rock';
+    font-weight: 400;
+    src: url('../fonts/stand-rock-font/Standrock-gxGP4.ttf') format('truetype');
+}
+
+body {
+    background-color: #CAD62A;
+}
+
+.logo {
+    width: 8rem;
+}
+
+.text-scroll, .text-wait, .text-game {
+    font-family: "Stand Rock", sans-serif;
+    font-weight: 100;
+}
+
+.text-wait {
+    font-size: 5em;
+}
+
+.text-game {
+    font-size: 3em;
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+}
+
+.text-scroll {
+    font-size: 5em;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+}
+
+.title {
+    font-family: "Made Soulmaze", sans-serif;
+    font-size: 6em;
+    color: #1f1b1bee;
+}
+
+.exclamation-mark {
+    width: 30rem;
+}
+
+.sub-title {
+    font-family: "Stand Rock", sans-serif;
+    font-size: 2.5em;
+}
+
+.yes, .no {
+    font-family: "Stand Rock";
+    font-size: 1.5em;
+    letter-spacing: 0.3rem;
+}
+
+.gobelet, .second-gobelet {
+    filter: hue-rotate(14deg) saturate(200%) brightness(70%);
+}
