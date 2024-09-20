@@ -33,6 +33,6 @@ Cas pratique que j'ai eu l'opportunité de faire pour un processus de recrutemen
 
 Notes : 
 
-- Je n'ai pas réussi à parfaitement aligner les vecteurs. J'ai changé la taille de police, essayé différents positionnements, mais c'était bien - plus tenace que je l'aurais cru.
+- Je n'ai pas réussi à parfaitement aligner les vecteurs. J'ai changé la taille de police, essayé différents positionnements, mais c'était bien plus tenace que je l'aurais cru.
 
 - J'ai suivi les consignes à la lettre, je ne me suis pas permis (même si j'en avais très envie) des petits élans de créativité ou des animations diverses dont j'aurais pu m'inspirer sur CodePen ou d'autres sites.
