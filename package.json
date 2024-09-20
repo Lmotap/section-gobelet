@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "gsap": "^3.12.5"
+  },
+  "name": "section-gobelet",
+  "version": "1.0.0",
+  "description": "Cas pratique que j'ai eu l'opportunité de faire pour le processus de recrutement, je devais reproduire une section avec une animation autour de gobelet",
+  "main": "app.js",
+  "devDependencies": {
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
