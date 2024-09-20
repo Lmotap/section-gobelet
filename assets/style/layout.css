@@ -2,9 +2,6 @@ body {
     overflow-x: hidden;
 }
 
-.hidden {
-    opacity: 0;
-}
 
 .container-logo {
     display: flex;
@@ -15,7 +12,6 @@ body {
     margin-top: 3%;
     margin-right: 8%;
 }
-
 
 .text-wait {
     transform: translate(11%,-400%) rotate(-15deg);
@@ -35,7 +31,6 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;     
-    font-size: 1rem;       
     width: 70%;
     margin: -11% 0% 0 16%; 
 }
@@ -73,7 +68,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2%;
 }
 
 .gobelet-container {
