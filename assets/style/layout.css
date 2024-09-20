@@ -2,7 +2,9 @@ body {
     overflow-x: hidden;
 }
 
-
+.hidden {
+    opacity: 0;
+}
 
 .container-logo {
     display: flex;
