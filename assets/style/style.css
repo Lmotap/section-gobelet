@@ -1,3 +1,6 @@
+
+/* Initialiser les fonts */
+
 @font-face {
     font-family: 'Made Soulmaze';
     font-weight: 400;
@@ -22,10 +25,6 @@ body {
     background-color: #CAD62A;
 }
 
-.logo {
-    width: 8rem;
-}
-
 .text-scroll, .text-wait, .text-game {
     font-family: "Stand Rock", sans-serif;
     font-weight: 100;
@@ -42,14 +41,15 @@ body {
 }
 
 .text-scroll {
-    font-size: 5em;
+    font-size: 3.5em;
     font-weight: 300;
     letter-spacing: 0.1rem;
+    text-transform: uppercase;
 }
 
 .title {
     font-family: "Made Soulmaze", sans-serif;
-    font-size: 6em;
+    font-size: 5.5em;
     color: #1f1b1bee;
 }
 
@@ -59,7 +59,8 @@ body {
 
 .sub-title {
     font-family: "Stand Rock", sans-serif;
-    font-size: 2.5em;
+    font-size: 2.8em;
+    text-transform: lowercase;
 }
 
 .yes, .no {
@@ -71,3 +72,10 @@ body {
 .gobelet, .second-gobelet {
     filter: hue-rotate(14deg) saturate(200%) brightness(70%);
 }
+
+.circle-yes, .circle-no {
+    background-color: #1f1b1bee;
+    border-radius: 50%;
+    color: rgba(255, 255, 255, 0.774);
+}
+
