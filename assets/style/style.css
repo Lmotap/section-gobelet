@@ -89,7 +89,7 @@ body {
 }
 
 @media screen and (max-width: 1640px) {
-    
+
     .exclamation-mark {
         width: 25rem;
     }
@@ -100,6 +100,25 @@ body {
 
     .text-scroll {
         font-size: 3em;
+    }
+
+    .text-wait {
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+    .exclamation-mark {
+        width: 16rem;
+    }
+
+    .text-game {
+        font-size: 2em;
+    }
+
+    .text-scroll {
+        font-size: 2.3em;
     }
 
     .text-wait {

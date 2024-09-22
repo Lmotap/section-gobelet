@@ -134,3 +134,36 @@ body {
         gap: 3%;
     }
 }
+
+@media screen and (max-width: 1280px) {
+
+    .container-title {
+        margin: -10% 0% 0% 5%;
+        width: 100%;
+    }
+
+    .text-scroll {
+        transform: translate(1%, 320%) rotate(-3deg);
+    }
+
+    .text-game {
+        transform: translate(60%, -270%) rotate(10deg);
+    }
+
+    .text-wait {
+        transform: translate(2%,-350%) rotate(-15deg);
+    }
+
+    .exclamation-mark {
+        margin-right: 12%;
+    }
+
+    .sub-title {
+        margin-left: 22%;
+    }
+
+    .container-gobelets {
+        gap: 6%;
+    }
+}
+
