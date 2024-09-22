@@ -88,3 +88,21 @@ body {
     color: rgba(255, 255, 255, 0.774);
 }
 
+@media screen and (max-width: 1640px) {
+    
+    .exclamation-mark {
+        width: 25rem;
+    }
+
+    .text-game {
+        font-size: 2.5em;
+    }
+
+    .text-scroll {
+        font-size: 3em;
+    }
+
+    .text-wait {
+        font-size: 4em;
+    }
+}

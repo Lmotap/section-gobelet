@@ -64,7 +64,8 @@ body {
 .exclamation-mark {
     margin-right: 5%;
 }
-.container-gobelet {
+
+.container-gobelets {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,4 +96,41 @@ body {
 
 .title-part {
     margin-left: 4%;
+}
+
+@media screen and (max-width: 1640px) {
+    
+    .container-title {
+        margin: -11% 0% 0 10%;
+        width: auto;
+    }
+
+    .text-scroll {
+        transform: translate(1%, 100%) rotate(-4deg);
+    }
+
+    .text-game {
+        transform: translate(57%, -270%) rotate(10deg);
+    }
+
+    .text-wait {
+        transform: translate(8%,-450%) rotate(-15deg);
+    }
+
+    .logo {
+        margin-right: 8%;
+    }
+
+    .exclamation-mark {
+        margin-right: 15%;
+    }
+
+    .sub-title {
+        margin-left: 16%;
+        margin-top: -1%;
+    }
+
+    .container-gobelets {
+        gap: 3%;
+    }
 }
